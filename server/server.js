@@ -8,10 +8,8 @@ var {Todo} =require('./models/todo');
 var{User}=require('./models/user');
 
 var app =express();
-const port= process.env.PORT || 8080;
+const port= process.env.PORT || 3000;
 
-//Database config
-const db=require('./config/database');
 app.use(bodyParser.json());
 
 
